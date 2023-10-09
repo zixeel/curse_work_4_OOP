@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 class UrlError(Exception):
     """Класс ошибки в URL адресе"""
     def __init__(self, msg):
